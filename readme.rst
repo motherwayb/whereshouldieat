@@ -3,56 +3,30 @@
 Setting Up Local Git Repo
 *******************
 
-- Open Terminal and change directory to where your local files are stored
+Open Terminal and change directory to where your local files are stored and run the following commands:
 - ``git init``
+- ``git add .``
+- ``git commit -m "First commit"``
+- ``git remote add origin https://github.com/motherwayb/whereshouldieat.git``
+- ``git push -u origin master``
 
 **************************
-Changelog and New Features
+Making Changes
 **************************
 
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
+Once you're up and running you can make changes by doing the following:
+- ``git fetch && git checkout -b my-branch-name`` (where my-branch-name is replaced by a descriptive name of the branch)
 
-*******************
-Server Requirements
-*******************
-
-PHP version 5.6 or newer is recommended.
-
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
-
-************
-Installation
-************
-
-Please see the `installation section <https://codeigniter.com/user_guide/installation/index.html>`_
-of the CodeIgniter User Guide.
-
-*******
-License
-*******
-
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
-
-*********
-Resources
-*********
-
--  `User Guide <https://codeigniter.com/docs>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community IRC <https://webchat.freenode.net/?channels=%23codeigniter>`_
-
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
-
-***************
-Acknowledgement
-***************
-
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
+Once you're on the branch you can make as many local changes as you want. When you're happy with all your changes and you want to push them to main branch run the following:
+- ``git add .``
+- ``git commit -m "added my cool new changes yada yada yada"`` (where the message in quotes is a description of what you did)
+- ``git push```
+NOTE: if you're pushing for the first time you may need to run:
+- ``git push --set-upstream origin my-branch-name``
+- Once you've done that click `New Pull Request <https://github.com/motherwayb/whereshouldieat/pull/new/master>`_.
+- Make sure Base branch is set to Master and Compare branch is set to your new branch (my-branch-name)
+- Once you do this you should see your changes
+- Then click "create pull request" button
+- You should then see your pull request
+- Once you see it, click "merge pull request"
+- Et Voila! Your pull request has been merged into the master branch
