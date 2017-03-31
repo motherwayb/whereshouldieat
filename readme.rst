@@ -4,7 +4,7 @@ Setting Up Local Git Repo
 *******************
 
 - Open Terminal and change directory to where your local files are stored
-- run `git init`
+- ```git init```
 
 **************************
 Changelog and New Features
