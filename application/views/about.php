@@ -1,21 +1,21 @@
-<!-- About Section -->
 <section class="success" id="about">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2>About Us</h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-4 col-lg-offset-2">
-                <p>Here at WSIED we aim to help the average Dubliner find what they should eat in Dublin. We've often had times where we've been trying to find somewhere new to eat, and always end up back at our old haunts.</p>
-            </div>
-            <div class="col-lg-4">
-                <p>So what we've created is a nice application to allow you to choose new and different places to the old ones. Bon apetit.</p>
-            </div>
-            <div class="col-lg-8 col-lg-offset-2 text-center">
-                
-            </div>
-        </div>
-    </div>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<h2>About Us</h2></br>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-6 col-lg-offset-0">
+				<h3>You know those moments when you just can’t seem to decide where to eat? You’ve argued for hours -  with your mates, your significant other, or even just by yourself - and yet, you still can’t decide on what food place to visit for a bit of grub.</h3>
+			</div>
+			<div class="col-lg-6 col-lg-offset-0"> 
+				<h3>At <a href="whereshouldieat.ie">WhereShouldIEat.ie</a>, we’re all about answering that vital question: Where should I eat? With all the restaurants Dublin has to offer, we know how hard it can be to pick the right one. But deciding where to go for food should never be a nightmare.</h3>  
+			</div>
+			<div class="col-lg-12 col-lg-offset-0" align="Center"> 
+				<h3>With <a href="whereshouldieat.ie">WhereShouldIEat.ie</a>, we do the thinking for you. All you have to do is tell us where you are and what sort of food you feel like, and we’ll recommend a spot for you to eat. It’s that simple.</h3><br/> 
+				<h3>Give it a go today and find out where you should eat!</h3>  
+			</div>
+		</div>
+	</div>
 </section>

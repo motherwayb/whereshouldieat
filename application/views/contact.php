@@ -3,8 +3,8 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 text-center">
-				<h2>Contact Us</h2>
-				<hr class="star-primary">
+				<h2>CONTACT US</h2>
+				<h5>GIVE US A SHOUT</h5>
 			</div>
 		</div>
 		<div class="row">
@@ -48,6 +48,12 @@
 						</div>
 					</div>
 				</form>
+			</div>
+			<div class="col-lg-12 text-center">
+				<a href="https://www.facebook.com/whereshouldieatie/"><i class="fa fa-facebook-square fa-4x" aria-hidden="true"></i></a>
+				<a href="https://twitter.com/WShouldIEatie"><i class="fa fa-twitter-square fa-4x" aria-hidden="true"></i></a>
+				<a href="https://www.instagram.com/WhereshouldIEatie/"><i class="fa fa-instagram fa-4x" aria-hidden="true"></i></a>
+				<a href="https://www.youtube.com/"><i class="fa fa-youtube-square fa-4x" aria-hidden="true"></i></a>
 			</div>
 		</div>
 	</div>

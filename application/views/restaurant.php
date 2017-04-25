@@ -1,6 +1,7 @@
-<?php $this->load->view('header', [
-	'map' => true
-]); 
+<?php 
+	$this->load->view('header', [
+		'map' => false
+	]); 
 ?>
 <div class="modal-content">
 	<div class="close-modal" data-dismiss="modal">
@@ -22,11 +23,11 @@
 					</p>
 					<ul class="list-inline item-details">
 						<li>
-							Address:
+							<span>Address:</span>
 							<strong><?php print $restaurant->address ?></strong>
 						</li>
 						<li>
-							Rating:
+							<span>Rating:</span>
 							<div class="rating" stye="display:inline-block">
 								<?php for ($i=0;$i<round($restaurant->rating);$i++): ?>
 									<span>☆</span>
@@ -34,7 +35,7 @@
 							</div>
 						</li>
 						<li>
-							Phone:
+							<span>Phone:</span>
 							<strong><?php print $restaurant->phone_number ?></strong>
 						</li>
 					</ul>
@@ -44,9 +45,7 @@
 					</p>
 					<p>
 						<b>Website:</b>
-						<a href="<?php print $restaurant->website ?>" target="_blank">
-							<?php print $restaurant->website ?>
-						</a>
+						<a href="<?php print $restaurant->website ?>" target="_blank"><?php print $restaurant->website ?></a>
 					</p>
 					<p>
 						<b>Opening Hours:</b> 
@@ -56,25 +55,29 @@
 								<?php print $opening_time; ?><br/>
 							<?php endforeach; ?>
 						<?php endif; ?>
-					</p></br></div></div></div></div>
-<section class="nosuccess" id="whatdowethink">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 text-center">
-				<h2>What do we think?</h2><br>
+					</p></br>
 				</div>
-		</div></section>
-		<section class="whatdowethinkrating" id="whatdowethink">
-		<div class="row">
-			<div class="col-lg-6 col-lg-offset-0"> <h3>VIDEOS</h3>
 			</div>
-			
-			<div class="col-lg-6 col-lg-offset-0"> <h3><b>BRIAN says:</b></br>
-						<b>PADDY says:</b></br>
-						<b>PK says:</b></br></h3> 	
-			</div><br>			</div>
-			
-			
 		</div>
-</section>
-				
+	</div>
+	<section class="nosuccess" id="whatdowethink">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<h2>What do we think?</h2><br/>
+				</div>
+			</div>
+	</section>
+	<section class="whatdowethinkrating" id="whatdowethink">
+		<div class="row">
+			<div class="col-lg-6 col-lg-offset-0"> 
+				<h3>VIDEOS</h3>
+			</div>
+			<div class="col-lg-6 col-lg-offset-0"> 
+				<h3>BRIAN says:</h3></br>
+				<h3>PADDY says:</h3></br>
+				<h3>PK says:</h3> 	
+			</div>			
+		</div>
+	</section>
+</div>
