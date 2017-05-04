@@ -3,8 +3,8 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 text-center">
-				<h2>CONTACT US</h2>
-				<h5>GIVE US A SHOUT</h5>
+				<h2 class="contact-header-1">Contact Us</h2>
+				<h5 class="contact-header-2">GIVE US A SHOUT</h5>
 			</div>
 		</div>
 		<div class="row">
@@ -49,11 +49,11 @@
 					</div>
 				</form>
 			</div>
-			<div class="col-lg-12 text-center">
-				<a href="https://www.facebook.com/whereshouldieatie/"><i class="fa fa-facebook-square fa-4x" aria-hidden="true"></i></a>
-				<a href="https://twitter.com/WShouldIEatie"><i class="fa fa-twitter-square fa-4x" aria-hidden="true"></i></a>
-				<a href="https://www.instagram.com/WhereshouldIEatie/"><i class="fa fa-instagram fa-4x" aria-hidden="true"></i></a>
-				<a href="https://www.youtube.com/"><i class="fa fa-youtube-square fa-4x" aria-hidden="true"></i></a>
+			<div class="col-lg-12 text-center media-icons">
+				<a href="https://www.facebook.com/whereshouldieatie/"><img src="<?php echo base_url() ?>assets/img/social-icons/Facebook-Icon.png"></a>
+				<a href="https://twitter.com/WShouldIEatie"><img src="<?php echo base_url() ?>assets/img/social-icons/Twitter-Icon.png"></a>
+				<a href="https://www.instagram.com/WhereshouldIEatie/"><img src="<?php echo base_url() ?>assets/img/social-icons/Instagram-Icon.png"></a>
+				<a href="https://www.youtube.com/"><img src="<?php echo base_url() ?>assets/img/social-icons/YouTube-Icon.png"></a>
 			</div>
 		</div>
 	</div>
