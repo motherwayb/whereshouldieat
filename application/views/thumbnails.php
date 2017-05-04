@@ -4,8 +4,8 @@
 			<div class="col-lg-12 text-center">
 				<div class="row">
 					<div class="col-lg-12">
-						<h1>WELL, WHAT DO YOU FEEL LIKE?</h1>
-						<h5>PICK A CATEGORY</h5>
+						<h1 class="thumb-header-1">WELL, WHAT DO YOU FEEL LIKE?</h1>
+						<h5 class="thumb-header-2">PICK A CATEGORY</h5>
 						<!-- <form class="input-group" id="form1" method="post">
 							<input type="text" class="form-control" name="food-type" placeholder="Search food...">
 							<span class="input-group-btn">
@@ -37,11 +37,10 @@
 			<?php $i=1 ?>
 			<?php foreach ($groups as $food_type): ?>
 				<div>
-					<div class="col-sm-4 portfolio-item">
-						<a href="index.php/restaurant/<?php echo $food_type ?>" class="portfolio-link food-type-thumbnail" data-toggle="modal" data-type="<?php print $food_type ?>">
+					<div class="col-sm-4 portfolio-item food-thumbnail">
+						<a href="index.php/restaurant/<?php echo $food_type ?>" class="portfolio-link food-type-thumbnail hvr-float-shadow" data-toggle="modal" data-type="<?php print $food_type ?>">
 							<div class="caption">
 								<div class="caption-content">
-									<i class="fa fa-search-plus fa-3x"></i>
 								</div>
 							</div>
 						<img src="<?php echo base_url() ?>assets/img/types/<?php print $food_type ?>.jpg" class="img-responsive" alt="">

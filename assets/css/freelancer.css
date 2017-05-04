@@ -4,6 +4,11 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+@font-face {
+    font-family: 'Mountains';
+    src: url('../fonts/beyond_the_mountains.otf');
+}
+
 body {
     overflow-x: hidden;
 }
@@ -171,7 +176,10 @@ header .intro-text .skills {
 }
 
 .navbar .navbar-collapse {
-  text-align: center;
+    text-align: center;
+    display: block !important;
+    overflow: auto !important;
+    padding-bottom: 15px;
 }
 
 .navbar .navbar-nav li a:focus {
@@ -218,7 +226,7 @@ section.success a:focus,
 section.success a:active,
 section.success a.active {
     outline: 0;
-    color: #2c3e50;
+
 }
 
 @media(max-width:767px) {
@@ -248,7 +256,6 @@ section.success a.active {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(27, 98, 178,.9);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -276,6 +283,10 @@ section.success a.active {
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
     margin: 0;
+}
+
+#portfolio .portfolio-item .food-thumbnail {
+    border-radius: 5px !important;
 }
 
 #portfolio * {
@@ -509,4 +520,31 @@ footer .footer-below {
 }
 .modal-body {
     margin-top: 20%;
+}
+.thumb-header-1 {
+    color: #1b62b2;
+    font-size: 50px !important;
+}
+.thumb-header-2,
+.contact-header-2 {
+    color: #3a3a3a;
+    font-size: 18px;
+}
+.contact-header-1 {
+    color: #083465;
+    font-family: 'Mountains', sans-serif;
+    /*letter-spacing: 6px;*/
+    text-transform: capitalize !important;
+}
+
+#portfolio #food-thumbnails img {
+    border: solid 2px #fff;
+    border-radius: 5px;
+}
+
+div.media-icons img {
+    color: #3A3A3A;
+    margin-right: 15px;
+    width: 3%;
+    height: 3%; 
 }

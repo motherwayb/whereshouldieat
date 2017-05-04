@@ -5,12 +5,16 @@
 			<div id="map"></div>
 			<div class="overlay">
 				<div id="load" style="visibility:hidden;"></div>
-				<span class="location">Location</span>
-				<div class="location-choices">
-					<span class="choice1"><a class="choice1">Near Me</a></span>
-					<span class="choice2">Choose Location</span>
-					<span class="choice3"><a class="choice3">Anywhere</a></span>
-				</div>
+				<table style="width: 100%; height: 100%">
+					<tr>
+						<td colspan="3" class="location">Location</td>
+					</tr>
+					<tr class="location-choices">
+						<td class="choice1"><a href="#" class="choice1 btn">Near Me</a></td>
+						<td class="choice2"><a href="#" class="choice1 btn">Choose Location</a></td>
+						<td class="choice3"><a href="#" class="choice3 btn">Anywhere</a></td>
+					</tr>
+				</table>
 			</div>
 		</div>
 	<?php endif; ?>

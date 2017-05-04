@@ -4,7 +4,7 @@
 	$this->load->view('thumbnails');   
 	$this->load->view('about');
 	$this->load->view('contact');
-	// $this->load->view('search');
+	$this->load->view('search');
 
 ?>
 

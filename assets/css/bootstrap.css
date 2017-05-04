@@ -8022,7 +8022,7 @@ a.active {
 
 .overlay {
     width: 100%;
-    height: 500px!important;
+    height: 500px !important;
     position: absolute;
     background-color: rgba(8, 52, 101, 0.4);
     top: 0;
@@ -8032,9 +8032,15 @@ a.active {
     color: white;
 }
 
-.overlay span.location {
-    line-height: 400px;
+.overlay table tr td.location {
     font-size: 56px;
+    height: 400px;
+    padding-top: 100px;
+}
+
+.overlay table tr.location-choices td {
+    width: 33.333%;
+    padding-bottom: 25px;
 }
 
 #map-wrapper {
@@ -8051,21 +8057,16 @@ a.active {
     padding-top: 500px;
 }
 
-.choice1 {
-    float: left;
-    padding-left: 20%;
+a.choice1,
+a.choice2,
+a.choice3 {
     color: white;
-}
-
-.choice2 {
-    float: center;
-    color: white;
-}
-
-.choice3 {
-    float: right;
-    padding-right: 20%;
-    color: white;
+    font-size: 28px;
+    margin-top: -175px;
+    font-weight: 100;
+    /*background-color: rgba(8, 52, 101, 0.4);*/
+    /*padding: 10px;*/
+    text-decoration: none;
 }
 
 .blue {

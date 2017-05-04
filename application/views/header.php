@@ -13,6 +13,8 @@
 		<link href="<?php echo base_url() ?>assets/css/bootstrap.css" rel="stylesheet">
 		<!-- Custom CSS -->
 		<link href="<?php echo base_url() ?>assets/css/freelancer.css" rel="stylesheet">
+		<!-- Hover CSS -->
+		<link href="<?php echo base_url() ?>assets/css/hover.css" rel="stylesheet">
 		<!-- Custom Fonts -->
 		<link href="<?php echo base_url() ?>assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 		<link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
