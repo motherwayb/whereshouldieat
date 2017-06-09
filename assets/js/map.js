@@ -18,4 +18,14 @@ function initMap() {
 
 	map.mapTypes.set('styled_map', styledMapType);
 	map.setMapTypeId('styled_map');
+
+}
+
+function initialize() {
+	console.log("Hello Brian");
+    var places = new google.maps.places.Autocomplete(
+    (document.getElementById('test')), {
+        types: ['geocode']
+    });
+    console.log(places);
 }

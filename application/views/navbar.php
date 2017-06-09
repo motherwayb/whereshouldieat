@@ -5,13 +5,15 @@
 			<div id="map"></div>
 			<div class="overlay">
 				<div id="load" style="visibility:hidden;"></div>
-				<table style="width: 100%; height: 100%">
+				<table class="location" style="width: 100%; height: 100%">
 					<tr>
 						<td colspan="3" class="location">Location</td>
 					</tr>
 					<tr class="location-choices">
 						<td class="choice1"><a href="#" class="choice1 btn">Near Me</a></td>
-						<td class="choice2"><a href="#" class="choice1 btn">Choose Location</a></td>
+						<td class="choice2">
+							<a href="#" class="choice2-link btn">Choose Location</a>
+						</td>
 						<td class="choice3"><a href="#" class="choice3 btn">Anywhere</a></td>
 					</tr>
 				</table>
@@ -38,12 +40,11 @@
 						<a href="<?php print base_url() ?>#about" class="header-button <?php print $map ? 'map' : '' ?>">About</a>
 					</li>
 					<!-- Logo -->
-					<a class="navbar-brand" href="<?php print base_url() ?>" title="Where Should I Eat?">
-						<img id="navbar-logo" 
-							style="width:100%; max-width:300px; margin-top: -101px;"
-							src="<?php echo base_url() ?>assets/img/logo/<?php print $map ? 'wsiewhite.png' : 'wsieblue.png' ?>">
-						</img>
-					</a>
+					<li class="page-scroll">
+						<a class="navbar-brand" href="<?php print base_url() ?>" title="Where Should I Eat?">
+							<img id="navbar-logo" src="<?php echo site_url() ?>assets/img/logo/<?php print $map ? 'wsiewhite.png' : 'wsieblue.png' ?>">
+						</a>
+					</li>
 					<li class="hidden">
 						<a href="#page-top"></a>
 					</li>

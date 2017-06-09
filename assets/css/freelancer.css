@@ -179,7 +179,7 @@ header .intro-text .skills {
     text-align: center;
     display: block !important;
     overflow: auto !important;
-    padding-bottom: 15px;
+    padding-bottom: 5px;
 }
 
 .navbar .navbar-nav li a:focus {
@@ -547,4 +547,10 @@ div.media-icons img {
     margin-right: 15px;
     width: 3%;
     height: 3%; 
+}
+
+#navbar-logo {
+    width: 140px;
+    height: 80px;
+    margin: -40px 50px 0px;
 }
