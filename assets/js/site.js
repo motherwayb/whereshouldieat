@@ -61,7 +61,7 @@ $(function () {
 		}
 	});
 	//When user clicks "near me" this brings them to food type thumbnails and sets their location in the background using showPosition()
-	$('.choice1').click(function(e) {
+	$('.choice1 a').click(function(e) {
 		document.getElementById('load').style.visibility="visible";
 		window.near_me = true;
 		navigator.geolocation.getCurrentPosition(showPosition);
@@ -76,7 +76,12 @@ $(function () {
 			console.log(position.coords.latitude, position.coords.longitude);
 		}
 	});
-	$('.choice3').click(function(e) {
+	$(".choice2").click(function(event) {
+	    $('.choice2').html("<input type='text' id='test' placeholder='Enter Location' onclick='initialize()' />");
+	    $('#test').focus();
+	    event.stopPropagation();
+	});
+	$('.choice3 a').click(function(e) {
 		$('html, body').animate({
 		        scrollTop: $('#food-thumbnails').offset().top
 		}, 2500);
@@ -182,12 +187,12 @@ $(function () {
 		if ($(window).scrollTop() < 10) {
 			$('.navbar .navbar-collapse').removeClass('white');
 			$('.header-button').removeClass('blue');
-			$('#navbar-logo').attr('src', 'assets/img/logo/wsiewhite.png');
+			$('#navbar-logo').attr('src', document.location.origin+'/assets/img/logo/wsiewhite.png');
 		} else {
 			//puts in white background for navbar as user scrolls down
 			$('.navbar .navbar-collapse').addClass('white');
 			$('.header-button').addClass('blue');
-			$('#navbar-logo').attr('src', 'assets/img/logo/wsieblue.png');
+			$('#navbar-logo').attr('src', document.location.origin+'/assets/img/logo/wsieblue.png');
 		}
     });
 });

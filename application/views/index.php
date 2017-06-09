@@ -5,7 +5,7 @@
 	$this->load->view('about');
 	$this->load->view('contact');
 	$this->load->view('search');
-
+	// $this->load->view('get_data');
 ?>
 
 

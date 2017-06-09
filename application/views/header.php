@@ -10,6 +10,8 @@
         <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
 		<title>Where Should I Eat? | <?php print isset($restaurant->name) ? $restaurant->name : ' ' ?></title>
 		<!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+		<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+		<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
 		<link href="<?php echo base_url() ?>assets/css/bootstrap.css" rel="stylesheet">
 		<!-- Custom CSS -->
 		<link href="<?php echo base_url() ?>assets/css/freelancer.css" rel="stylesheet">
@@ -19,9 +21,6 @@
 		<link href="<?php echo base_url() ?>assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 		<link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 		<link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-		<!-- jQuery -->
-		<script src="<?php echo base_url() ?>assets/js/jquery.js"></script>
 		<!-- Bootstrap Core JavaScript -->
 		<script src="<?php echo base_url() ?>assets/js/bootstrap.min.js"></script>
 		<!-- Plugin JavaScript -->
@@ -35,6 +34,7 @@
 		<script src="<?php echo base_url() ?>assets/js/freelancer.js"></script>
 		<!-- Functionality for Google Places Querying -->
 		<script src="<?php echo base_url() ?>assets/js/site.js"></script>
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCLUvYOG7sIIqLSzLz43uSIZzeswUDYglQ&libraries=places&"></script>
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -47,5 +47,6 @@
 	</head>
 	<body id="page-top" class="index">
 	    <script src="<?php echo base_url() ?>assets/js/map.js"></script>
-	    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCLUvYOG7sIIqLSzLz43uSIZzeswUDYglQ&libraries=places&callback=initMap" async defer></script>
+	    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCLUvYOG7sIIqLSzLz43uSIZzeswUDYglQ&libraries=places&callback=initMap" async defer>
+	    </script>
 	    <?php $this->load->view('navbar') ?>
