@@ -1,0 +1,132 @@
+[30-May-2017 15:21:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/where031/public_html/content/wp-content/themes/writee/inc/theme/headers/header1.php:35
+Stack trace:
+#0 /home/where031/public_html/content/wp-includes/template.php(686): require()
+#1 /home/where031/public_html/content/wp-includes/template.php(643): load_template('/home/where031/...', false)
+#2 /home/where031/public_html/content/wp-includes/general-template.php(167): locate_template(Array, true, false)
+#3 /home/where031/public_html/content/wp-content/themes/writee/header.php(25): get_template_part('inc/theme/heade...')
+#4 /home/where031/public_html/content/wp-includes/template.php(684): require_once('/home/where031/...')
+#5 /home/where031/public_html/content/wp-includes/template.php(643): load_template('/home/where031/...', true)
+#6 /home/where031/public_html/content/wp-includes/general-template.php(45): locate_template(Array, true)
+#7 /home/where031/public_html/content/wp-content/themes/writee/index.php(10): get_header()
+#8 /home/where031/public_ht in /home/where031/public_html/content/wp-content/themes/writee/inc/theme/headers/header1.php on line 35
+[30-May-2017 15:21:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/where031/public_html/content/wp-content/themes/writee/inc/theme/headers/header1.php:35
+Stack trace:
+#0 /home/where031/public_html/content/wp-includes/template.php(686): require()
+#1 /home/where031/public_html/content/wp-includes/template.php(643): load_template('/home/where031/...', false)
+#2 /home/where031/public_html/content/wp-includes/general-template.php(167): locate_template(Array, true, false)
+#3 /home/where031/public_html/content/wp-content/themes/writee/header.php(25): get_template_part('inc/theme/heade...')
+#4 /home/where031/public_html/content/wp-includes/template.php(684): require_once('/home/where031/...')
+#5 /home/where031/public_html/content/wp-includes/template.php(643): load_template('/home/where031/...', true)
+#6 /home/where031/public_html/content/wp-includes/general-template.php(45): locate_template(Array, true)
+#7 /home/where031/public_html/content/wp-content/themes/writee/404.php(9): get_header()
+#8 /home/where031/public_html/ in /home/where031/public_html/content/wp-content/themes/writee/inc/theme/headers/header1.php on line 35
+[30-May-2017 15:21:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/where031/public_html/content/wp-content/themes/writee/inc/theme/headers/header1.php:35
+Stack trace:
+#0 /home/where031/public_html/content/wp-includes/template.php(686): require()
+#1 /home/where031/public_html/content/wp-includes/template.php(643): load_template('/home/where031/...', false)
+#2 /home/where031/public_html/content/wp-includes/general-template.php(167): locate_template(Array, true, false)
+#3 /home/where031/public_html/content/wp-content/themes/writee/header.php(25): get_template_part('inc/theme/heade...')
+#4 /home/where031/public_html/content/wp-includes/template.php(684): require_once('/home/where031/...')
+#5 /home/where031/public_html/content/wp-includes/template.php(643): load_template('/home/where031/...', true)
+#6 /home/where031/public_html/content/wp-includes/general-template.php(45): locate_template(Array, true)
+#7 /home/where031/public_html/content/wp-content/themes/writee/index.php(10): get_header()
+#8 /home/where031/public_ht in /home/where031/public_html/content/wp-content/themes/writee/inc/theme/headers/header1.php on line 35
+[30-May-2017 15:21:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/where031/public_html/content/wp-content/themes/writee/inc/theme/headers/header1.php:35
+Stack trace:
+#0 /home/where031/public_html/content/wp-includes/template.php(686): require()
+#1 /home/where031/public_html/content/wp-includes/template.php(643): load_template('/home/where031/...', false)
+#2 /home/where031/public_html/content/wp-includes/general-template.php(167): locate_template(Array, true, false)
+#3 /home/where031/public_html/content/wp-content/themes/writee/header.php(25): get_template_part('inc/theme/heade...')
+#4 /home/where031/public_html/content/wp-includes/template.php(684): require_once('/home/where031/...')
+#5 /home/where031/public_html/content/wp-includes/template.php(643): load_template('/home/where031/...', true)
+#6 /home/where031/public_html/content/wp-includes/general-template.php(45): locate_template(Array, true)
+#7 /home/where031/public_html/content/wp-content/themes/writee/index.php(10): get_header()
+#8 /home/where031/public_ht in /home/where031/public_html/content/wp-content/themes/writee/inc/theme/headers/header1.php on line 35
+[30-May-2017 15:21:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/where031/public_html/content/wp-content/themes/writee/inc/theme/headers/header1.php:35
+Stack trace:
+#0 /home/where031/public_html/content/wp-includes/template.php(686): require()
+#1 /home/where031/public_html/content/wp-includes/template.php(643): load_template('/home/where031/...', false)
+#2 /home/where031/public_html/content/wp-includes/general-template.php(167): locate_template(Array, true, false)
+#3 /home/where031/public_html/content/wp-content/themes/writee/header.php(25): get_template_part('inc/theme/heade...')
+#4 /home/where031/public_html/content/wp-includes/template.php(684): require_once('/home/where031/...')
+#5 /home/where031/public_html/content/wp-includes/template.php(643): load_template('/home/where031/...', true)
+#6 /home/where031/public_html/content/wp-includes/general-template.php(45): locate_template(Array, true)
+#7 /home/where031/public_html/content/wp-content/themes/writee/index.php(10): get_header()
+#8 /home/where031/public_ht in /home/where031/public_html/content/wp-content/themes/writee/inc/theme/headers/header1.php on line 35
+[30-May-2017 15:22:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/where031/public_html/content/wp-content/themes/writee/inc/theme/headers/header1.php:35
+Stack trace:
+#0 /home/where031/public_html/content/wp-includes/template.php(686): require()
+#1 /home/where031/public_html/content/wp-includes/template.php(643): load_template('/home/where031/...', false)
+#2 /home/where031/public_html/content/wp-includes/general-template.php(167): locate_template(Array, true, false)
+#3 /home/where031/public_html/content/wp-content/themes/writee/header.php(25): get_template_part('inc/theme/heade...')
+#4 /home/where031/public_html/content/wp-includes/template.php(684): require_once('/home/where031/...')
+#5 /home/where031/public_html/content/wp-includes/template.php(643): load_template('/home/where031/...', true)
+#6 /home/where031/public_html/content/wp-includes/general-template.php(45): locate_template(Array, true)
+#7 /home/where031/public_html/content/wp-content/themes/writee/index.php(10): get_header()
+#8 /home/where031/public_ht in /home/where031/public_html/content/wp-content/themes/writee/inc/theme/headers/header1.php on line 35
+[30-May-2017 15:22:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/where031/public_html/content/wp-content/themes/writee/inc/theme/headers/header1.php:35
+Stack trace:
+#0 /home/where031/public_html/content/wp-includes/template.php(686): require()
+#1 /home/where031/public_html/content/wp-includes/template.php(643): load_template('/home/where031/...', false)
+#2 /home/where031/public_html/content/wp-includes/general-template.php(167): locate_template(Array, true, false)
+#3 /home/where031/public_html/content/wp-content/themes/writee/header.php(25): get_template_part('inc/theme/heade...')
+#4 /home/where031/public_html/content/wp-includes/template.php(684): require_once('/home/where031/...')
+#5 /home/where031/public_html/content/wp-includes/template.php(643): load_template('/home/where031/...', true)
+#6 /home/where031/public_html/content/wp-includes/general-template.php(45): locate_template(Array, true)
+#7 /home/where031/public_html/content/wp-content/themes/writee/index.php(10): get_header()
+#8 /home/where031/public_ht in /home/where031/public_html/content/wp-content/themes/writee/inc/theme/headers/header1.php on line 35
+[30-May-2017 15:27:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/where031/public_html/content/wp-content/themes/writee/inc/theme/headers/header1.php:31
+Stack trace:
+#0 /home/where031/public_html/content/wp-includes/template.php(686): require()
+#1 /home/where031/public_html/content/wp-includes/template.php(643): load_template('/home/where031/...', false)
+#2 /home/where031/public_html/content/wp-includes/general-template.php(167): locate_template(Array, true, false)
+#3 /home/where031/public_html/content/wp-content/themes/writee/header.php(25): get_template_part('inc/theme/heade...')
+#4 /home/where031/public_html/content/wp-includes/template.php(684): require_once('/home/where031/...')
+#5 /home/where031/public_html/content/wp-includes/template.php(643): load_template('/home/where031/...', true)
+#6 /home/where031/public_html/content/wp-includes/general-template.php(45): locate_template(Array, true)
+#7 /home/where031/public_html/content/wp-content/themes/writee/index.php(10): get_header()
+#8 /home/where031/public_ht in /home/where031/public_html/content/wp-content/themes/writee/inc/theme/headers/header1.php on line 31
+[30-May-2017 15:28:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/where031/public_html/content/wp-content/themes/writee/inc/theme/headers/header1.php:31
+Stack trace:
+#0 /home/where031/public_html/content/wp-includes/template.php(686): require()
+#1 /home/where031/public_html/content/wp-includes/template.php(643): load_template('/home/where031/...', false)
+#2 /home/where031/public_html/content/wp-includes/general-template.php(167): locate_template(Array, true, false)
+#3 /home/where031/public_html/content/wp-content/themes/writee/header.php(25): get_template_part('inc/theme/heade...')
+#4 /home/where031/public_html/content/wp-includes/template.php(684): require_once('/home/where031/...')
+#5 /home/where031/public_html/content/wp-includes/template.php(643): load_template('/home/where031/...', true)
+#6 /home/where031/public_html/content/wp-includes/general-template.php(45): locate_template(Array, true)
+#7 /home/where031/public_html/content/wp-content/themes/writee/index.php(10): get_header()
+#8 /home/where031/public_ht in /home/where031/public_html/content/wp-content/themes/writee/inc/theme/headers/header1.php on line 31
+[30-May-2017 15:28:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/where031/public_html/content/wp-content/themes/writee/inc/theme/headers/header1.php:31
+Stack trace:
+#0 /home/where031/public_html/content/wp-includes/template.php(686): require()
+#1 /home/where031/public_html/content/wp-includes/template.php(643): load_template('/home/where031/...', false)
+#2 /home/where031/public_html/content/wp-includes/general-template.php(167): locate_template(Array, true, false)
+#3 /home/where031/public_html/content/wp-content/themes/writee/header.php(25): get_template_part('inc/theme/heade...')
+#4 /home/where031/public_html/content/wp-includes/template.php(684): require_once('/home/where031/...')
+#5 /home/where031/public_html/content/wp-includes/template.php(643): load_template('/home/where031/...', true)
+#6 /home/where031/public_html/content/wp-includes/general-template.php(45): locate_template(Array, true)
+#7 /home/where031/public_html/content/wp-content/themes/writee/index.php(10): get_header()
+#8 /home/where031/public_ht in /home/where031/public_html/content/wp-content/themes/writee/inc/theme/headers/header1.php on line 31
+[30-May-2017 15:29:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/where031/public_html/content/wp-content/themes/writee/inc/theme/headers/header1.php:31
+Stack trace:
+#0 /home/where031/public_html/content/wp-includes/template.php(686): require()
+#1 /home/where031/public_html/content/wp-includes/template.php(643): load_template('/home/where031/...', false)
+#2 /home/where031/public_html/content/wp-includes/general-template.php(167): locate_template(Array, true, false)
+#3 /home/where031/public_html/content/wp-content/themes/writee/header.php(25): get_template_part('inc/theme/heade...')
+#4 /home/where031/public_html/content/wp-includes/template.php(684): require_once('/home/where031/...')
+#5 /home/where031/public_html/content/wp-includes/template.php(643): load_template('/home/where031/...', true)
+#6 /home/where031/public_html/content/wp-includes/general-template.php(45): locate_template(Array, true)
+#7 /home/where031/public_html/content/wp-content/themes/writee/index.php(10): get_header()
+#8 /home/where031/public_ht in /home/where031/public_html/content/wp-content/themes/writee/inc/theme/headers/header1.php on line 31
+[30-May-2017 15:30:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/where031/public_html/content/wp-content/themes/writee/inc/theme/headers/header1.php:31
+Stack trace:
+#0 /home/where031/public_html/content/wp-includes/template.php(686): require()
+#1 /home/where031/public_html/content/wp-includes/template.php(643): load_template('/home/where031/...', false)
+#2 /home/where031/public_html/content/wp-includes/general-template.php(167): locate_template(Array, true, false)
+#3 /home/where031/public_html/content/wp-content/themes/writee/header.php(25): get_template_part('inc/theme/heade...')
+#4 /home/where031/public_html/content/wp-includes/template.php(684): require_once('/home/where031/...')
+#5 /home/where031/public_html/content/wp-includes/template.php(643): load_template('/home/where031/...', true)
+#6 /home/where031/public_html/content/wp-includes/general-template.php(45): locate_template(Array, true)
+#7 /home/where031/public_html/content/wp-content/themes/writee/index.php(10): get_header()
+#8 /home/where031/public_ht in /home/where031/public_html/content/wp-content/themes/writee/inc/theme/headers/header1.php on line 31

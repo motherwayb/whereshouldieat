@@ -1,0 +1,2 @@
+[31-May-2017 15:09:25 UTC] 
+[31-May-2017 23:26:35 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/where031/public_html/content/wp-includes/update.php on line 129
